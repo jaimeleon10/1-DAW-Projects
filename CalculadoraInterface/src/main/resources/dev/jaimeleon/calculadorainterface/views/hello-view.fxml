@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="470" prefWidth="420.0" spacing="20.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="dev.jaimeleon.calculadorainterface.controllers.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label alignment="TOP_CENTER" prefHeight="30.0" prefWidth="300.0" text="Calculadora JavaFX" textFill="#ffbf00" underline="true">
+        <font>
+            <Font name="Cascadia Code Regular" size="26.0" />
+        </font>
+    </Label>
+    
+    <VBox prefHeight="400.0" prefWidth="380.0" spacing="10">
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="380.0">
+            <Label alignment="CENTER" prefHeight="137.5" prefWidth="190" style="-fx-background-color: #FFbF00;" text="NÚMERO 1:">
+                <font>
+                   <Font name="System Bold" size="20.0" />
+                </font>
+            </Label>
+
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="190.0" style="-fx-background-color: #FFbF00;">
+                <TextField promptText="Número 1" fx:id="numberField1" alignment="CENTER" prefHeight="50" prefWidth="140.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </TextField>
+            </HBox>
+        </HBox>
+
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="380.0">
+            <Label alignment="CENTER" prefHeight="137.5" prefWidth="190" style="-fx-background-color: #FFbF00;" text="NÚMERO 2:">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="190.0" style="-fx-background-color: #FFbF00;">
+                <TextField promptText="Número 2" fx:id="numberField2" alignment="CENTER" prefHeight="50" prefWidth="140.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </TextField>
+            </HBox>
+        </HBox>
+
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="380.0">
+            <Label alignment="CENTER" prefHeight="137.5" prefWidth="190.0" style="-fx-background-color: #FFbF00;" text="RESULTADO:">
+                <font>
+                    <Font name="System Bold" size="20.0" />
+                </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="190.0" style="-fx-background-color: #FFbF00;">
+                <TextField fx:id="resultField" editable="false" alignment="CENTER" prefHeight="50" prefWidth="140">
+                    <font>
+                        <Font name="System" size="20.0" />
+                    </font>
+                </TextField>
+            </HBox>
+        </HBox>
+
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="380.0" spacing="30">
+            <Button fx:id="sumaButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="+">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="restaButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="-">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="multiplicacionButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="x">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="divisionButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="/">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Button>
+        </HBox>
+    </VBox>
+</VBox>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="cineJaimeGerman.db" uuid="c9f3031a-1692-43ae-a072-8a842f642839">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:cineJaimeGerman.db</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="cineJaimeGermanTest.sqlite" uuid="343651ab-45b7-47a0-960b-6ffefa758880">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:cineJaimeGermanTest.sqlite</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
